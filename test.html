@@ -1,0 +1,42 @@
+<DOCTOTYPE>
+
+<html> 
+<head> 
+    <title>Liste, table and</title>
+    <link href="css/file.css" rel="stylesheet" type="text/css">
+   <script src="https://kit.fontawesome.com/2466fa8278.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body> 
+	<div class="mainContainer"> 
+		<h1>Lamp App</h1>
+		<form id="savedata">
+			<div class="infoContainer">
+				<input type="text" id="name" placeholder="Name of the Lamp" required="required" />
+				<label>Lamp On: </label>
+				<input type="number" id="numOn" value="0" min="0"/>
+				<label>Lamp Off: </label>
+				<input type="number" id="numOff" value="0" min="0"/>
+				<div class="WfiCamera">
+					<label>Wifi: </label>
+					<input type="checkbox" class="check" id="wifi" value="Wifi">
+					<label>Camera: </label>
+					<input type="checkbox" class="check" id="camera" value="Camera">
+				</div>
+			</div>
+			<button type="submit">Submit</button>
+	    </form>
+		<fieldset>
+    	<div class="DeuxContainer">
+			<div id="showInformation_Container">
+					
+			</div>
+    	</div>
+		</fieldset>
+    </div>
+   <script src="js/add.js"></script>   
+</body>
+</html>
+
+
